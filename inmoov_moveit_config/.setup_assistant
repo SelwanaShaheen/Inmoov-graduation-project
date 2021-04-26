@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: inmoov_description
+    relative_path: urdf/inmoov.urdf
+    xacro_args: "--inorder "
+  SRDF:
+    relative_path: config/inmoov.srdf
+  CONFIG:
+    author_name: inmoov
+    author_email: selwanashaheen98@gmail.com
+    generated_timestamp: 1619440934

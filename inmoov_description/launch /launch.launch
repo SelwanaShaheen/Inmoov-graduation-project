@@ -36,7 +36,7 @@
    <rosparam file="$(find inmoov_description)/config/joint_names_inmoov.yaml" command="load" ns=""/>
     <!-- load the controllers -->
    <node name="controller_spawner" pkg ="controller_manager" type="spawner" respawn="false"
-      output="screen"  ns="/yarab_5" args="joint_state_controller  
+      output="screen"  ns="/inmoov" args="joint_state_controller  
   joint1_effort_controller
   joint2_effort_controller
   joint3_effort_controller 
