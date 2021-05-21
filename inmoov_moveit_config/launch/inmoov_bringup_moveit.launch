@@ -1,0 +1,9 @@
+ <launch>
+<!--	Launch	Gazebo		-->
+
+  <include file= "$(find inmoov_description)/launch/launch.launch" />			
+			
+
+  <include file= "$(find inmoov_moveit_config)/launch/moveit_planning_execution.launch" />
+				
+ </launch>
